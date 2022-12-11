@@ -1,0 +1,34 @@
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168472
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8547
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9297
+SHA256sum: a8efbdef34c713dcdae635736e79bc293171bbdea9f472e9df0fdf4e3f9eb0ba
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: irqbalance
+Version: 1.9.0-4
+Depends: libc
+Source: feeds/packages/utils/irqbalance
+SourceName: irqbalance
+License: GPLv2
+Section: utils
+SourceDateEpoch: 1655055204
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 49658
+Filename: irqbalance_1.9.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 50530
+SHA256sum: 5be32ff5acf0f0a3bb7080a99075285d2b6dade4472d305609d2a407ccd0b4d9
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+

@@ -1,0 +1,1656 @@
+Package: 6rd
+Version: 12
+Depends: libc, kmod-sit
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2839
+Filename: 6rd_12_all.ipk
+Size: 3634
+SHA256sum: 5031e89bc59a455d7d42897e77d3aeb3c19dc9a28c5925433949b811e8322127
+Description:  Provides support for 6rd tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: ar3k-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 784807
+Filename: ar3k-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 785004
+SHA256sum: 746a494dc2031e4c75d520840b7a001eb9fed091efad7e3cc0bec08453242f49
+Description:  ath3k firmware
+
+Package: ath10k-board-qca9887
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 678
+Filename: ath10k-board-qca9887_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1422
+SHA256sum: e1c51ac55dab8e37d199db47137b9669297ca6b85292dfcf6488c6370ae92c22
+Description:  ath10k qca9887 board firmware
+
+Package: ath10k-board-qca9888
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4821
+Filename: ath10k-board-qca9888_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5118
+SHA256sum: 40bfc24f001dedf264941ba57095871659316986d19794b875b8b882a7c183ec
+Description:  ath10k qca9888 board firmware
+
+Package: ath10k-board-qca988x
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 779
+Filename: ath10k-board-qca988x_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1547
+SHA256sum: 00410ca50049dacb964c4b2cdfa422300166baca75197b70d3fee3341e6218f7
+Description:  ath10k qca988x board firmware
+
+Package: ath10k-board-qca9984
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9800
+Filename: ath10k-board-qca9984_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10426
+SHA256sum: e7e595306dea6c7dd38f6736caef060901993d6c634652e4c5e42daa7a4aa0df
+Description:  ath10k qca9984 board firmware
+
+Package: ath10k-board-qca99x0
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7127
+Filename: ath10k-board-qca99x0_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7793
+SHA256sum: 14cdca08923e8fadb2f1250c38af4b15637e5f2e0885860e141114b4f1e750d0
+Description:  ath10k qca99x0 board firmware
+
+Package: ath10k-firmware-qca9887-ct
+Version: 2020-11-08-1
+Depends: libc, ath10k-board-qca9887
+Conflicts: ath10k-firmware-qca9887
+Provides: ath10k-firmware-qca9887
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 187663
+Filename: ath10k-firmware-qca9887-ct_2020-11-08-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 188637
+SHA256sum: 2ec491dfba9342bf379d38df37060ce076a764975314473a8dd43a0bb63975df
+Description:  Alternative ath10k firmware for QCA9887 from Candela Technologies.
+ Enables IBSS and other features.  See:
+ http://www.candelatech.com/ath10k-10.1.php
+ This firmware conflicts with the standard 9887 firmware, so select only
+ one.
+
+Package: ath10k-firmware-qca9888-ct
+Version: 2020-11-08-1
+Depends: libc, ath10k-board-qca9888
+Conflicts: ath10k-firmware-qca9888
+Provides: ath10k-firmware-qca9888
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 476916
+Filename: ath10k-firmware-qca9888-ct_2020-11-08-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 476754
+SHA256sum: 37f3668a01946ce1aae750cd3df58b12e8fc63648036d6d082f3da71cb4ee8b1
+Description:  Alternative ath10k firmware for QCA9886 and QCA9888 from Candela Technologies.
+ Enables IBSS and other features.  See:
+ http://www.candelatech.com/ath10k-10.4.php
+ This firmware conflicts with the standard 9886 and 9888 firmware, so select only
+ one.
+
+Package: ath10k-firmware-qca988x-ct
+Version: 2020-11-08-1
+Depends: libc, ath10k-board-qca988x
+Conflicts: ath10k-firmware-qca988x
+Provides: ath10k-firmware-qca988x
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 181717
+Filename: ath10k-firmware-qca988x-ct_2020-11-08-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 182777
+SHA256sum: 0629bd7831bc0cd6185fc4eb441ed5e53a9e713c99126fd26178512628f5a734
+Description:  Alternative ath10k firmware for QCA988X from Candela Technologies.
+ Enables IBSS and other features.  See:
+ http://www.candelatech.com/ath10k-10.1.php
+ This firmware will NOT be used unless the standard ath10k-firmware-qca988x
+ is un-selected since the driver will try to load firmware-5.bin before
+ firmware-2.bin
+
+Package: ath10k-firmware-qca9984-ct
+Version: 2020-11-08-1
+Depends: libc, ath10k-board-qca9984
+Conflicts: ath10k-firmware-qca9984
+Provides: ath10k-firmware-qca9984
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 471489
+Filename: ath10k-firmware-qca9984-ct_2020-11-08-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 469009
+SHA256sum: 8adc8f195f009db38aa702f272586d82f2fe4f1f7faea31afaff7457b50cd8d7
+Description:  Alternative ath10k firmware for QCA9984 from Candela Technologies.
+ Enables IBSS and other features.  See:
+ http://www.candelatech.com/ath10k-10.4.php
+ This firmware conflicts with the standard 9984 firmware, so select only
+ one.
+
+Package: ath10k-firmware-qca99x0-ct
+Version: 2020-11-08-1
+Depends: libc, ath10k-board-qca99x0
+Conflicts: ath10k-firmware-qca99x0
+Provides: ath10k-firmware-qca99x0
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 436039
+Filename: ath10k-firmware-qca99x0-ct_2020-11-08-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 433797
+SHA256sum: 93a6b5d34ab56ae10911a0507832bceaa2e6ba54c0e86affacf17d366d3e68fa
+Description:  Alternative ath10k firmware for QCA99x0 from Candela Technologies.
+ Enables IBSS and other features.  See:
+ http://www.candelatech.com/ath10k-10.4.php
+ This firmware conflicts with the standard 99x0 firmware, so select only
+ one.
+
+Package: ath9k-htc-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 61890
+Filename: ath9k-htc-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 62302
+SHA256sum: 5d2a905644ffaafec98800f1f64373947fc04a947760cb3bf43691c685fb23f4
+Description:  AR9271/AR7010 firmware
+
+Package: b43legacy-firmware
+Version: 3.130.20.0-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 16440
+Filename: b43legacy-firmware_3.130.20.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 17044
+SHA256sum: 903863f79a621546c8f0575a98e19a6459593b2fc95729acce76717701d18fa4
+Description:  Broadcom bcm43xx b43legacy firmware
+
+Package: bnx2-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 705237
+Filename: bnx2-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 705366
+SHA256sum: 3c97138d9dd84b4264aae980d2682ae37c50fa41c6d3e03bc0ebce44d8e20491
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9778112
+Filename: bnx2x-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9744380
+SHA256sum: cc173e477ca80ca621708366edf2b8fea730c2f81d9393226a7c420a934a75e9
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 502998
+Filename: brcmfmac-firmware-usb_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 503676
+SHA256sum: 3f281da867226340cd27b54ea366f450be787ff4729cc8834facebce8683957c
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: busybox
+Version: 1.35.0-4
+Depends: libc
+Conflicts: busybox-selinux
+License: GPL-2.0
+Section: base
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 233788
+Filename: busybox_1.35.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 234151
+SHA256sum: ba66bfad48b527ed54d3d0243b8f6fc968265d3b50c1c3d294ed50f900000a01
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: ca-bundle
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 113264
+Filename: ca-bundle_20211016-1_all.ipk
+Size: 114113
+SHA256sum: d8045be032362fd12ae23c5b44ed603dfcb98a9d9f7e78c3d3c0d4dee992da96
+Description:  System CA certificates as a bundle
+
+Package: carl9170-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9772
+Filename: carl9170-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10537
+SHA256sum: b95436372ba132dbb61d9d4a58a7838d2a1c2e0363ac6ec84d33969ffc73a1c9
+Description:  AR9170 firmware
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8949
+Filename: chat_2.4.9.git-2021-01-04-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9762
+SHA256sum: bdb85aafdd1d862b4e69e7284ca41715fd12ead8360b73f64db55302da4a8105
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: dnsmasq
+Version: 2.86-14
+Depends: libc, libubus20220601
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 132846
+Filename: dnsmasq_2.86-14_arm_cortex-a15_neon-vfpv4.ipk
+Size: 133361
+SHA256sum: 3ca5435d70c90d38c28433361576bff905a13a5ca93105a40b482a26a0665f50
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: e100-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 839
+Filename: e100-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1583
+SHA256sum: f4867c449e73068e41d2042d23c21b706ccf5fed24053722056daafcfa56cd49
+Description:  Intel e100
+
+Package: e2fsprogs
+Version: 1.46.5-1
+Depends: libc, libuuid1, libext2fs2
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 191831
+Filename: e2fsprogs_1.46.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 192081
+SHA256sum: 38f094722905af460a71e30c82085ac7626d6da58f7e300bb04e50b60f1bf4cd
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: edgeport-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18908
+Filename: edgeport-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19607
+SHA256sum: 1ff0c67aaa2431e6af399ffc1cd60b057d4bd1a2c97cd28d590729edd7da7215
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: firewall4
+Version: 2022-10-14-4fbf6d75-1
+Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
+Provides: uci-firewall
+License: ISC
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 27870
+Filename: firewall4_2022-10-14-4fbf6d75-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 28839
+SHA256sum: b3fb121cec9efccec7657c6f4bb480bab44cb96937b17950dfc978138742eed7
+Description:  This package provides an nftables-based implementation of the UCI firewall
+ sharing the same configuration format.
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1432
+Filename: getrandom_2021-08-03-205defb5-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2214
+SHA256sum: b9109a4bde391bd83a58a0c40f61bb7aef883c217ead9e6c24bd724086a4b803
+Description:  OpenWrt getrandom system helper
+
+Package: hostapd-common
+Version: 2022-01-16-cff80b4f-13.1
+Depends: libc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12389
+Filename: hostapd-common_2022-01-16-cff80b4f-13.1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13193
+SHA256sum: 0ea53372a0f5397d72b64b6f3c03bc1ad54bdb6980f923425765e27358ce53b3
+Description:  hostapd/wpa_supplicant common support files
+
+Package: iw
+Version: 5.16-1
+Depends: libc, libnl-tiny1
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 44883
+Filename: iw_5.16-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 45631
+SHA256sum: d5230ca440e40d1cd87b8689bda49adcbbc4a724381d7f4d78dbc9c8bfc63d40
+Description:  cfg80211 interface configuration utility
+
+Package: iwinfo
+Version: 2022-08-19-0dad3e66-1
+Depends: libc, libiwinfo20210430
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7071
+Filename: iwinfo_2022-08-19-0dad3e66-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7902
+SHA256sum: b914ed9e513f07702793a9e647daeb4405d728d864fb5f1ed4f0a03c77e5af8e
+Description:  Command line frontend for the wireless information library.
+
+Package: iwl3945-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 63584
+Filename: iwl3945-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 64248
+SHA256sum: 69da74f5efca3215483048975b78d90d2f3626958e81c41460d8514bfbc8b56f
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 78629
+Filename: iwl4965-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 79233
+SHA256sum: cab61bf78269172ec23723efe5405b42ad1223a87acf87c53b8faf69c4dfcfbd
+Description:  Intel IWL4965 firmware
+
+Package: jansson4
+Version: 2.13.1-2
+Depends: libc
+Provides: jansson
+License: MIT
+Section: libs
+ABIVersion: 4
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18600
+Filename: jansson4_2.13.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19357
+SHA256sum: badfa8b31a0b4488a0e9aa763c03b7dcd972a3693a0ddc787790283e62292745
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: jshn
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515, libblobmsg-json20220515
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6339
+Filename: jshn_2022-05-15-d2223ef9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7141
+SHA256sum: 45f2ed7817b75d59a367fa225fa198521b318a11434b2c81d133a27337b4bbed
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+License: ISC
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9186
+Filename: jsonfilter_2018-02-04-c7e938d6-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9967
+SHA256sum: 26408cad05fc69849a0611bbbbacffd7e9f2c310c1abd8d06a4d5781d4bac9f7
+Description:  OpenWrt JSON filter utility
+
+Package: libblkid1
+Version: 2.37.3-3
+Depends: libc, libuuid1
+Provides: libblkid
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 123146
+Filename: libblkid1_2.37.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 123776
+SHA256sum: 7e9599274bce788f5eeed41f6d5f372a89dd6a21e2262dbc087c8353a8653f38
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515
+Provides: libblobmsg-json
+License: ISC
+Section: libs
+ABIVersion: 20220515
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3451
+Filename: libblobmsg-json20220515_2022-05-15-d2223ef9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4228
+SHA256sum: ba8d2b385fafdac93c06908f617f8496b4282942977eed02964d8e830a02c35e
+Description:  blobmsg <-> json conversion library
+
+Package: libbpf20220308
+Version: 2022-03-08-04c465fd-1
+Depends: libc, libelf1
+Provides: libbpf
+License: LGPL-2.1 OR BSD-2-Clause
+Section: libs
+ABIVersion: 20220308
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 121989
+Filename: libbpf20220308_2022-03-08-04c465fd-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 122830
+SHA256sum: 803d213272b78a57b65d73426097a3fec7e578edafb51af23a701b756af4a3bc
+Description:  libbpf is a library for loading eBPF programs and reading and manipulating eBPF objects from user-space.
+
+Package: libcomerr0
+Version: 1.46.5-1
+Depends: libc, libuuid1
+Provides: libcomerr
+License: GPL-2.0
+Section: libs
+ABIVersion: 0
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3780
+Filename: libcomerr0_1.46.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4574
+SHA256sum: f4d080081672902eb410c08fa38db9e35e8b12e763839324527d2a8e25356fd0
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
+Package: libelf1
+Version: 0.186-1
+Depends: libc, zlib
+Provides: libelf, libelf11
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:elfutils_project:elfutils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 38131
+Filename: libelf1_0.186-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 39048
+SHA256sum: 65b2d0055d0e4de1af0651fd810826cada5b0213e8204e38f5dab75b58966b35
+Description:  ELF manipulation libraries (libelf)
+
+Package: libertas-sdio-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 348571
+Filename: libertas-sdio-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 349500
+SHA256sum: 388b4b8320ce390cb1addbd8ff47843c361931c5dd0a31f244df9bd65f0a9322
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 92259
+Filename: libertas-spi-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 93113
+SHA256sum: cebe9c01a612febd052a8319501cb2fc14baa856d6c9fd5a339ee2a1d1f7dd48
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 216589
+Filename: libertas-usb-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 217359
+SHA256sum: d6304d1829e7f37d81bd16caa054179daff0daa3e3776a261b8ed906e230ebad
+Description:  Marvell 8388/8682 USB firmware
+
+Package: libext2fs2
+Version: 1.46.5-1
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+License: GPL-2.0
+Section: libs
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 171630
+Filename: libext2fs2_1.46.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 171811
+SHA256sum: b5922ad262b7da96a56ffa45fe03ec5e0a4f03a2f7c58ed4cfa4df4209a7acf2
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libiwinfo-data
+Version: 2022-08-19-0dad3e66-1
+Depends: libc
+License: GPL-2.0
+Section: opt
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2121
+Filename: libiwinfo-data_2022-08-19-0dad3e66-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2893
+SHA256sum: fcb306470db31476961987b3a6b5fcecbee26da41f92043886d761cf67bc4ddf
+Description:  libiwinfo Lua binding
+
+Package: libiwinfo-lua
+Version: 2022-08-19-0dad3e66-1
+Depends: libc, libiwinfo20210430, liblua5.1.5
+License: GPL-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6802
+Filename: libiwinfo-lua_2022-08-19-0dad3e66-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7653
+SHA256sum: 43e47c2b88268b7653fa098570053dd6924cbe9cc15a923c2e64d87e5261fb0d
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo20210430
+Version: 2022-08-19-0dad3e66-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20220601, libiwinfo-data
+Provides: libiwinfo
+License: GPL-2.0
+Section: libs
+ABIVersion: 20210430
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 25550
+Filename: libiwinfo20210430_2022-08-19-0dad3e66-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 26383
+SHA256sum: fc8676a82be79bce5f13cf386daaa2a1bf512c2a8d0c3fae4c4bb63f685bcf7b
+Description:  Wireless information library with simplified API for nl80211
+ and wext driver interfaces.
+
+Package: libjson-c5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+License: MIT
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23539
+Filename: libjson-c5_0.15-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24333
+SHA256sum: c1695dd6a762145e35a98a2e2d46fc681437367db2fc25f8738dacd0d3f2ed9e
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515
+Provides: libjson-script
+License: ISC
+Section: utils
+ABIVersion: 20220515
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4252
+Filename: libjson-script20220515_2022-05-15-d2223ef9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5035
+SHA256sum: 326c66dc39e45b222b1ba9b84cb4b8beacd432578c21fb4698e73628d8fc5ba7
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-10
+Depends: libc
+Provides: liblua
+License: MIT
+Section: libs
+ABIVersion: 5.1.5
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 60836
+Filename: liblua5.1.5_5.1.5-10_arm_cortex-a15_neon-vfpv4.ipk
+Size: 61648
+SHA256sum: 2715859586025e66c466dbd27b13d3e35cca12884159186daccaf73a7ff46cd2
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmnl0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+License: LGPL-2.1+
+Section: libs
+ABIVersion: 0
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5436
+Filename: libmnl0_1.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6687
+SHA256sum: 9ed46540d789cbb8f4fffd7619749e261f564a0f0a329bfb608a817dee2db8ce
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libnftnl11
+Version: 1.2.1-1
+Depends: libc, libmnl0
+Provides: libnftnl
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 11
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 50237
+Filename: libnftnl11_1.2.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 50911
+SHA256sum: a2d49b08380e413287424cdca1d5c8b0a16a106c59b8e6b31b696a48cf3eb727
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnl-tiny1
+Version: 2021-11-21-8e0555fb-1
+Depends: libc
+Provides: libnl-tiny
+License: LGPL-2.1
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12688
+Filename: libnl-tiny1_2021-11-21-8e0555fb-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13487
+SHA256sum: cb016f38b1af67de9c578e2dab82e7d39dda1d3bded56ac64e7778bb033ee492
+Description:  This package contains a stripped down version of libnl
+
+Package: libsmartcols1
+Version: 2.37.3-3
+Depends: libc, librt
+Provides: libsmartcols
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 79806
+Filename: libsmartcols1_2.37.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 80579
+SHA256sum: 2c550bbf6a53d9a762d23ba77c7e541f6d9ae498686ba1415c4846c0095802f7
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.46.5-1
+Depends: libc, libcomerr0
+Provides: libss
+License: GPL-2.0
+Section: libs
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7754
+Filename: libss2_1.46.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8616
+SHA256sum: efdc9f3f78c56c4e04a215ebb15e7718a3802e857c749fe4eaaaf9516136bf11
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
+Package: libubox20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc
+Provides: libubox
+License: ISC
+Section: libs
+ABIVersion: 20220515
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18283
+Filename: libubox20220515_2022-05-15-d2223ef9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19078
+SHA256sum: e79ee086ae6452acb2fd3e1cbae034a41381f6e90d2d551ec377450ffbda9f0c
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubus20220601, liblua5.1.5
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6194
+Filename: libubus-lua_2022-06-01-2bebf93c-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7022
+SHA256sum: e4b48c55fec2b7802924f54128f4bc708dd2ea26a75b5b6508bde36ff6f60f5e
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus20220601
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubox20220515
+Provides: libubus
+License: LGPL-2.1
+Section: libs
+ABIVersion: 20220601
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9079
+Filename: libubus20220601_2022-06-01-2bebf93c-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9850
+SHA256sum: 2be4ee49a6d287f49c5e5e463122ab6e34a4fcd29502ebc665f6948826c25ad2
+Description:  OpenWrt RPC client library
+
+Package: libuci20130104
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libubox20220515
+Provides: libuci
+License: LGPL-2.1
+Section: libs
+ABIVersion: 20130104
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14941
+Filename: libuci20130104_2021-10-22-f84f49f0-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 15730
+SHA256sum: eb052567665ff3f866a32b813d0721e3cf3c0f258e45e31ae86a4d46b8ba3f82
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient20201210
+Version: 2021-05-14-6a6011df-1
+Depends: libc, libubox20220515
+Provides: libuclient
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8893
+Filename: libuclient20201210_2021-05-14-6a6011df-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9725
+SHA256sum: 22258ab72220d56d561719111db59e7450b8de37588f880e80f7e44d815070c8
+Description:  HTTP/1.1 client library
+
+Package: libucode20220812
+Version: 2022-10-07-4ae70721-1
+Depends: libc, libjson-c5
+Provides: libucode
+License: ISC
+Section: utils
+ABIVersion: 20220812
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 64370
+Filename: libucode20220812_2022-10-07-4ae70721-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 65017
+SHA256sum: 8ab52aea3dadb172f8b99e7f2abb55608d3751c7b670fb7c83c40b6d7c3eaab7
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libustream-wolfssl20201210
+Version: 2022-01-16-868fd881-2
+Depends: libc, libubox20220515, libwolfssl5.5.1.ee39414e
+Conflicts: libustream-openssl
+Provides: libustream-wolfssl
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3493
+Filename: libustream-wolfssl20201210_2022-01-16-868fd881-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4296
+SHA256sum: ebd4781f97a27f43e5f8c6fd8cae96679d24924db9c17e4018e30db9e7a8f167
+Description:  ustream SSL Library (wolfssl)
+
+Package: libuuid1
+Version: 2.37.3-3
+Depends: libc, librt
+Provides: libuuid
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11398
+Filename: libuuid1_2.37.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12388
+SHA256sum: df87c78aabfbc90c907ddf0731efbfdb63a5c5b2cfa63d59e038d8589bde89ff
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libwolfssl5.5.1.ee39414e
+Version: 5.5.1-stable-3
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl5.5.1.ee39414e
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 5.5.1.ee39414e
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 475139
+Filename: libwolfssl5.5.1.ee39414e_5.5.1-stable-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 472591
+SHA256sum: dfc3a2e1c1993f68732a8d61f380f4eb601f6856a0038b8a884c1fdf320fe924
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10369
+Filename: logd_2021-08-03-205defb5-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11170
+SHA256sum: 5d0d989fdbcd9fd49fefbbc126a2c8d45f655e07e354af79c9eb52f8d422e5a8
+Description:  OpenWrt system log implementation
+
+Package: losetup
+Version: 2.37.3-3
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 38496
+Filename: losetup_2.37.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 39449
+SHA256sum: 394387934ef6cfe642255f558efeb68e07a9d6c6f1843a3de3ff44c7baebb866
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lua
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4616
+Filename: lua_5.1.5-10_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5486
+SHA256sum: edb57a1feab33457ee953dc968db9350fb68b6b869b2d8bc34bf5a068707f71c
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: mt7601u-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 26422
+Filename: mt7601u-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27157
+SHA256sum: e81ffaf8cd197fa0d8dd2a6a3cfdcb7353e7ba66c0c8765d625bd9dd56820e14
+Description:  MediaTek MT7601U firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 514912
+Filename: mwifiex-pcie-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 515632
+SHA256sum: 26df6d6189af06b5a8f6078722d96c63ea5d1aac486b31d55da619a620e2dc4a
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 876730
+Filename: mwifiex-sdio-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 877109
+SHA256sum: e8bcb5c9bd0c222db1efdb70f5f46823436056fc42b06b737044f2cfe3815cde
+Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 192387
+Filename: mwl8k-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 193260
+SHA256sum: 164d8458abc674862fb1ffe1e446c2b08039b85c246456a8def37538c93510bb
+Description:  Marvell 8366/8687 firmware
+
+Package: netifd
+Version: 2022-08-25-76d2d41b-1
+Depends: libc, libuci20130104, libnl-tiny1, libubus20220601, ubus, ubusd, jshn, libubox20220515
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 89756
+Filename: netifd_2022-08-25-76d2d41b-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 90496
+SHA256sum: 6af1695844d850ff0d30a1b57017daf137aad6685c235a9eebdf80b4575b091f
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: nftables-json
+Version: 1.0.2-2.1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 259847
+Filename: nftables-json_1.0.2-2.1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 258853
+SHA256sum: ce179e6d8264275ca603a5c796ea3a19e13668a49ea7db151980b184eb3c4be2
+Description:  nftables userspace utility with JSON support
+
+Package: odhcp6c
+Version: 2022-08-05-7d21e8d8-18
+Depends: libc, libubox20220515
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 25975
+Filename: odhcp6c_2022-08-05-7d21e8d8-18_arm_cortex-a15_neon-vfpv4.ipk
+Size: 26769
+SHA256sum: 2219567ac2555d023b7df3a0ce842a761895b8dcc220503f8534483ed4b503ac
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2022-03-22-860ca900-1
+Depends: libc, libubox20220515, libuci20130104, libubus20220601, libnl-tiny1
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 38230
+Filename: odhcpd-ipv6only_2022-03-22-860ca900-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 39135
+SHA256sum: f95790dd9177eeecdbdca683ba8c3f989fcacd68904b66ddc47723eebad8cf71
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openwrt-keyring
+Version: 2022-03-25-62471e69-3
+Depends: libc
+Provides: lede-keyring
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 310
+Filename: openwrt-keyring_2022-03-25-62471e69-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1109
+SHA256sum: 4096f6efd6addc8c2d1610b0db9ce3768d4e32af3f4d1c47c398532db0aecd2b
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2022-02-24-d038e5b6-1
+Depends: libc, uclient-fetch, libpthread, libubox20220515
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 65469
+Filename: opkg_2022-02-24-d038e5b6-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 66525
+SHA256sum: 9e1b8bc0fbcc85f13cbebec4d10e780bd9558a179023ee6681bb7456ab93d0ef
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: p54-pci-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23511
+Filename: p54-pci-firmware_1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24193
+SHA256sum: 2390e1b40d73f2aa7ffa3e37ba637325f9801c7659a0749ff65c238c03f24f79
+Description:  p54-pci firmware
+
+Package: p54-usb-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23804
+Filename: p54-usb-firmware_1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24488
+SHA256sum: b732c30d1adda077aa536ff402dccc41d8d50b73d47295e61cecbe51e5bde6c0
+Description:  p54-usb firmware
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10292
+Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11076
+SHA256sum: 40d95a4381d4c1a356df9c2c914ba31fdf04ed108eee70fbf46d02b05e7a76d4
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 123691
+Filename: ppp_2.4.9.git-2021-01-04-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 124113
+SHA256sum: b1186a9d971f0b8553950f23d986b7a181490b9469a038a8e75b35f7b64b2a13
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: prism54-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 80227
+Filename: prism54-firmware_1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 81059
+SHA256sum: 1d88b94110f895f99206e5b6e10b36906de9d015d932b4f3ff4fecfbe640d5c8
+Description:  prism54 firmware
+
+Package: procd-seccomp
+Version: 2022-06-01-7a009685-1
+Depends: libc, libubox20220515, libblobmsg-json20220515
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14578
+Filename: procd-seccomp_2022-06-01-7a009685-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 15229
+SHA256sum: 084a5dbf1fae52fced64ff6832b687aff5c8d026d288760563b37af5c9808c73
+Description:  OpenWrt process seccomp helper + utrace
+
+Package: procd-ujail
+Version: 2022-06-01-7a009685-1
+Depends: libc, libubox20220515, libubus20220601, libuci20130104, libblobmsg-json20220515
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 41999
+Filename: procd-ujail_2022-06-01-7a009685-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 42438
+SHA256sum: 3b4a873e916199716ef674804c87a27d8bf35e29f981c5d649eb5e6250d5179f
+Description:  OpenWrt process jail helper
+
+Package: procd
+Version: 2022-06-01-7a009685-1
+Depends: libc, ubusd, ubus, libjson-script20220515, ubox, libubox20220515, libubus20220601, libblobmsg-json20220515, libjson-c5, jshn
+Conflicts: procd-selinux
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 52480
+Filename: procd_2022-06-01-7a009685-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 52958
+SHA256sum: 41f7fa926659a3d87f28bb7571923ea3e73dcedfe8263cd6afa3acc2144a4110
+Description:  OpenWrt system process manager
+
+Package: px5g-wolfssl
+Version: 5.1
+Depends: libc, libwolfssl5.5.1.ee39414e
+Provides: px5g
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4578
+Filename: px5g-wolfssl_5.1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5428
+SHA256sum: 83e8b92a5a0d7c5cce3e758e418c4a1f65d7ddbbaafa1e753f36d5ff5ca48446
+Description:  Px5g is a tiny X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: r8152-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9407
+Filename: r8152-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10163
+SHA256sum: 8e12a1328739079ec9e583d1bbcd9a2f1a6a9d89de684ba01893fc9ca0f8baf4
+Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23833
+Filename: r8169-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24548
+SHA256sum: e4659af5014a4490a3533c8d7f042d6de83866e801b36e51ac6502000d3db3dd
+Description:  RealTek RTL8169 firmware
+
+Package: rpcd-mod-file
+Version: 2022-09-21-8c852b65-1
+Depends: libc, libubus20220601, libubox20220515, rpcd
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6317
+Filename: rpcd-mod-file_2022-09-21-8c852b65-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7213
+SHA256sum: c3388fcbfcc578f6667ae8ba1cdaf9da1913168a3df8c191e2660bc4260c1957
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2022-09-21-8c852b65-1
+Depends: libc, libubus20220601, libubox20220515, rpcd, libiwinfo20210430
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7303
+Filename: rpcd-mod-iwinfo_2022-09-21-8c852b65-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8204
+SHA256sum: 68dd45df296209fded99fecd60049ac194d8c9a236fcbd0f7fb10ef542d0c53a
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd
+Version: 2022-09-21-8c852b65-1
+Depends: libc, libubus20220601, libubox20220515, libuci20130104, libblobmsg-json20220515, libjson-c5
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 22509
+Filename: rpcd_2022-09-21-8c852b65-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 23326
+SHA256sum: 4ea91db352c07784dcb3c3a262a6c3c63e540231378c36670af5df088a52c3bb
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: rs9113-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 84661
+Filename: rs9113-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 85269
+SHA256sum: aa9697bec5fc0abcc92c20c86b4e91034ceab38e60fac5059d771f4fc0239ffd
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3968
+Filename: rt2800-pci-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4724
+SHA256sum: 142b048ceeb10b30f01eca5eb00d884d9c2437327685fba1f54a43864c27e5d6
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2938
+Filename: rt2800-usb-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3674
+SHA256sum: 8c4a0c19bfaf0451082421c51874a451d8a4c8b79bb8bdb74087cdb82682384b
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6503
+Filename: rt61-pci-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7299
+SHA256sum: bee4d269d201b3ee21f45391b8ece8901d1161c9d57c88ef5fc9cc6bc8f1e7a0
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1319
+Filename: rt73-usb-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2071
+SHA256sum: bcac69fd9ba77f0aa6d80d23ed491b9bd01d09b4efe1084b1a142824de236dd8
+Description:  Ralink RT2573 firmware
+
+Package: rtl8192ce-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 20760
+Filename: rtl8192ce-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 21494
+SHA256sum: 7b962dc5f2358202a9cfa413e375320be94e2f778c906bd42899aa4a4ca0ab7e
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18711
+Filename: rtl8192cu-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19486
+SHA256sum: 720919919f6a2f86eebae0a3333472c8542439a2d06e2d1a1ec54043067641eb
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13530
+Filename: rtl8192de-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14284
+SHA256sum: 3001e0b5cbb95768680cbb48bbab77067590d0603ea98fba9a94f1e62c085952
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192se-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 36778
+Filename: rtl8192se-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 37508
+SHA256sum: 444ba596d135998452b6849aa7bd16d63205429fb72b26a855dd85c8fa49ac05
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8192su-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 63230
+Filename: rtl8192su-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 64031
+SHA256sum: 3def242812f3c2028d28268def4dd762617140e3db7205990c540546d8711b3c
+Description:  RealTek RTL8192SU firmware
+
+Package: rtl8821ae-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23999
+Filename: rtl8821ae-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24714
+SHA256sum: 0d3a5f4637bcedf8b8b75380252b56d77d4ac1c9e7a70ccc426954275eec73bb
+Description:  RealTek RTL8821AE firmware
+
+Package: swconfig
+Version: 12
+Depends: libc, libuci20130104, libnl-tiny1
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8649
+Filename: swconfig_12_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9397
+SHA256sum: 156a8f87054301b9b93afee2b8d529ff1839117455e2bc7f4431acc496b80044
+Description:  Switch configuration utility
+
+Package: tc-full
+Version: 5.15.0-4
+Depends: libc, kmod-sched-core, libbpf20220308, libxtables12, tc-mod-iptables
+Provides: tc
+Alternatives: 400:/sbin/tc:/usr/libexec/tc-full
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 174053
+Filename: tc-full_5.15.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 174789
+SHA256sum: b35cb7a6bc11eb9f77aaac2f4ba0461b14781555156730fb050db01acbe4d9fa
+Description:  Traffic control utility (full)
+
+Package: tc-mod-iptables
+Version: 5.15.0-4
+Depends: libc, libxtables12
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3328
+Filename: tc-mod-iptables_5.15.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4112
+SHA256sum: 5a4fe2618e564904f0ea237cc8457d050dfbb6b061a33ff6255746ae044d5353
+Description:  Traffic control module - iptables action
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14111
+Filename: ubox_2021-08-03-205defb5-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14951
+SHA256sum: d64908c1d764370a2b3002a260b8f5287f2970ee575cd179bec9dfe3a5c77fc7
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubus20220601, libblobmsg-json20220515, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5684
+Filename: ubus_2022-06-01-2bebf93c-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6464
+SHA256sum: 4e72da64b076cc980296469548216c5097f77cf71db2480cf8b2df807a7aef45
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubox20220515, libblobmsg-json20220515
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10672
+Filename: ubusd_2022-06-01-2bebf93c-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11456
+SHA256sum: 80acabc8ef1ea5809b702c4f5ec24f40509f9f6bae0f32a19430e228cc7b1332
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libuci20130104
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6834
+Filename: uci_2021-10-22-f84f49f0-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7654
+SHA256sum: 6317e36eec2e270cbde3f90cd02c10c7f98b4261ed2e0de768deec0139f0862f
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclient-fetch
+Version: 2021-05-14-6a6011df-1
+Depends: libc, libuclient20201210
+Provides: wget
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+License: ISC
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7430
+Filename: uclient-fetch_2021-05-14-6a6011df-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8274
+SHA256sum: 2486b1ae1c52a9a24f8ab26afabff928f0da852c9214dcc7833871f328387925
+Description:  Tiny wget replacement using libuclient
+
+Package: ucode-mod-fs
+Version: 2022-10-07-4ae70721-1
+Depends: libc, ucode
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8402
+Filename: ucode-mod-fs_2022-10-07-4ae70721-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9152
+SHA256sum: bfc5e3ba30bd4d9811d589dd8ec8243fc826ba841fb241fb8bc1a3bf9621c7e8
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-ubus
+Version: 2022-10-07-4ae70721-1
+Depends: libc, ucode, libubus20220601, libblobmsg-json20220515
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12191
+Filename: ucode-mod-ubus_2022-10-07-4ae70721-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12967
+SHA256sum: 87fa3752ebf6916fd516814afcfd5aa156f1618b70ec826b03730b69413796e2
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
+ procedures.
+
+Package: ucode-mod-uci
+Version: 2022-10-07-4ae70721-1
+Depends: libc, ucode, libuci20130104
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6234
+Filename: ucode-mod-uci_2022-10-07-4ae70721-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7064
+SHA256sum: 8c987941743cfc1b6259b5f65d82b521e59b17cd1ebf6cec2762f22c692b373b
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode
+Version: 2022-10-07-4ae70721-1
+Depends: libc, libucode20220812
+License: ISC
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6383
+Filename: ucode_2022-10-07-4ae70721-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7250
+SHA256sum: fb9a20f4165300c9a23a9f8cd6b52899fd615bef391a20ea3de53b0ad543e867
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
+Package: uhttpd-mod-ubus
+Version: 2022-08-12-e3395cd9-1
+Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
+License: ISC
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7398
+Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8262
+SHA256sum: b02a45d0b3ce05405987acbd4a3325884bfdaeeedc55c62f6046701494557d15
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2022-08-12-e3395cd9-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, libjson-script20220515, libjson-c5
+License: ISC
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 26260
+Filename: uhttpd_2022-08-12-e3395cd9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27068
+SHA256sum: df81b1f06a3ef3e6a869c20bf91f5972ddea8a4d546beee2dd230e0add680a7a
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: urandom-seed
+Version: 3
+Depends: libc, getrandom
+License: GPL-2.0-only
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 836
+Filename: urandom-seed_3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1586
+SHA256sum: b4b8530bad2b3efad0f9135a50fd622a8ecfcec4ffc328767f0f0f839a34a326
+Description:  /etc/urandom.seed handling for OpenWrt
+
+Package: urngd
+Version: 2020-01-21-c7f7b6b6-1
+Depends: libc, libubox20220515
+License: GPL-2.0 BSD-3-Clause
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5022
+Filename: urngd_2020-01-21-c7f7b6b6-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6021
+SHA256sum: 81f1a3e65f9227ab8b10554b8da03501790916c4f154f7c7737e64316fc29815
+Description:  urngd is OpenWrt's micro non-physical true random number generator based on
+ timing jitter.
+ 
+ Using the Jitter RNG core, the rngd provides an entropy source that feeds into
+ the Linux /dev/random device if its entropy runs low. It updates the
+ /dev/random entropy estimator such that the newly provided entropy unblocks
+ /dev/random.
+ 
+ The seeding of /dev/random also ensures that /dev/urandom benefits from
+ entropy. Especially during boot time, when the entropy of Linux is low, the
+ Jitter RNGd provides a source of sufficient entropy.
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20220515
+License: ISC
+Section: base
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11492
+Filename: usign_2020-05-23-f1f65026-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12282
+SHA256sum: f0f3eb96ad44a650c00d5c466087933f47f1acdf1807a444f260c59d6afc86b9
+Description:  OpenWrt signature verification utility
+
+Package: wil6210-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 254949
+Filename: wil6210-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 255771
+SHA256sum: b73159da58e014ff3b52dae18815ebb6a5272c47a8d99830ccdf97eb93308d54
+Description:  wil6210 firmware
+
+Package: wireless-regdb
+Version: 2022.08.12-1
+Depends: libc
+Section: firmware
+Architecture: all
+Installed-Size: 2203
+Filename: wireless-regdb_2022.08.12-1_all.ipk
+Size: 2946
+SHA256sum: 1fddd626c171d4796eceab161d8e80968e01dd5bf7dcf999fce3977b57bce0c7
+Description:  Wireless Regulatory Database
+
+Package: wl12xx-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1175102
+Filename: wl12xx-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1175136
+SHA256sum: 6eac6f722ced5dc4a7aacdb2b99dec746d90218d660d62425a0a780487e046c7
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20220411-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 343336
+Filename: wl18xx-firmware_20220411-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 343957
+SHA256sum: 30b521221a5df9f4523ad13bd74493eb465b573ba9b9429622f4a12c8618e92f
+Description:  TI WL18xx firmware
+
+Package: wpad-basic-wolfssl
+Version: 2022-01-16-cff80b4f-13.1
+Depends: hostapd-common (=2022-01-16-cff80b4f-13.1), libc, libnl-tiny1, hostapd-common, libubus20220601, libwolfssl5.5.1.ee39414e
+Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl
+Provides: hostapd, wpa-supplicant
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 401238
+Filename: wpad-basic-wolfssl_2022-01-16-cff80b4f-13.1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 401519
+SHA256sum: f2eb88fc67db0060277680b102105b9c6e5a3a026e3143958d3377e92c3b1766
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10003
+Filename: wwan_2019-04-29-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9850
+SHA256sum: 90d1d5c51f18b615b7a22b972a8c1d120262a5b4e56ee2f1ea0d748390839c5a
+Description:  Generic OpenWrt 3G/4G proto handler
+
+Package: zlib
+Version: 1.2.11-6
+Depends: libc
+License: Zlib
+Section: libs
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 41137
+Filename: zlib_1.2.11-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 41971
+SHA256sum: e18c9d104d6f751fe6435d43a5f7c1e37f2ab55015a7c05e4c8072012414ac40
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
